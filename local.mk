@@ -1,0 +1,2 @@
+# UBOOT_OVERRIDE_SRCDIR = $(CONFIG_DIR)/../u-boot.main
+LINUX_OVERRIDE_SRCDIR = $(CONFIG_DIR)/../linux

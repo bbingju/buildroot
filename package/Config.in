@@ -2673,4 +2673,8 @@ menu "Text editors and viewers"
 	source "package/vim/Config.in"
 endmenu
 
+menu "Apps for Nerdvana"
+	source "package/ujind/Config.in"
+endmenu
+
 endmenu

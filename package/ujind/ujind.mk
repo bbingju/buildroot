@@ -5,11 +5,11 @@
 ################################################################################
 
 UJIND_VERSION_MAJOR = 0.1
-UJIND_VERSION = $(UJIND_VERSION_MAJOR).0
-UJIND_SOURCE = $(UJIND_VERSION).tar.gz
+UJIND_VERSION = $(UJIND_VERSION_MAJOR).1
+UJIND_SOURCE = v$(UJIND_VERSION).tar.gz
 # UJIND_SITE_METHOD = local
 # UJIND_SITE = $(TOPDIR)/../Dropbox/src/ujind
-UJIND_SITE = https://github.com/bbingju/ujind/archive/refs/tags/$(UJIND_SOURCE)
+UJIND_SITE = https://github.com/bbingju/ujind/archive/refs/tags
 UJIND_LICENSE = BSD-3-Clause
 UJIND_LICENSE_FILES = COPYING
 UJIND_INSTALL_STAGING = NO
